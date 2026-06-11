@@ -1,9 +1,9 @@
 {
-  "name": "jsl-quality-science-durability",
+  "name": "exponentially-better-science-pack-qualities",
   "version": "0.1.0",
-  "title": "JSL Quality Science Durability",
-  "author": "James Stone Lunde",
-  "description": "Replaces vanilla linear quality durability scaling with configurable exponential scaling for science packs and other tools.",
+  "title": "Exponentially Better Science Pack Qualities",
+  "author": "Anthoussae",
+  "description": "Replaces vanilla linear quality durability scaling with configurable exponential scaling for science packs and other tools, making higher quality science much more viable. Recommended setting is 2, making rare science 400% more durable, epic science 800%, and legendary science 3200% more durable. Improves spoil time of agricultural science packs. Also affects repair packs and some other minor durability based items.",
   "factorio_version": "2.0",
   "dependencies": [
     "base",

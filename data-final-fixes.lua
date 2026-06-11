@@ -1,4 +1,4 @@
-local setting_name = "jsl-quality-science-durability-quality-durability-scaling-factor"
+local setting_name = "exponentially-better-science-pack-qualities-quality-durability-scaling-factor"
 local factor = settings.startup[setting_name].value
 
 local function compute_multiplier(level, scaling_factor)

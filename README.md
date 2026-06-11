@@ -1,4 +1,4 @@
-# JSL Quality Science Durability
+# Exponentially Better Science Pack Qualities
 
 Replaces vanilla **linear** quality durability scaling with **configurable exponential** scaling for science packs and other tool items.
 
@@ -18,15 +18,15 @@ multiplier = scaling_factor ^ quality_level
 
 When the scaling factor is **1**, vanilla linear scaling is restored (`1 + quality_level`).
 
-### Example (scaling factor = 3)
+### Example (scaling factor = 2)
 
 | Quality   | Level | Multiplier | Display |
 |-----------|-------|------------|---------|
 | normal    | 0     | 1          | 100%    |
-| uncommon  | 1     | 3          | 300%    |
-| rare      | 2     | 9          | 900%    |
-| epic      | 3     | 27         | 2700%   |
-| legendary | 5     | 243        | 24300%  |
+| uncommon  | 1     | 2          | 200%    |
+| rare      | 2     | 4          | 400%    |
+| epic      | 3     | 8          | 800%    |
+| legendary | 5     | 32         | 3200%   |
 
 Higher-quality agricultural science packs also gain proportionally longer spoil times.
 
@@ -34,7 +34,7 @@ Higher-quality agricultural science packs also gain proportionally longer spoil 
 
 **Settings → Mod settings → Startup → Quality durability scaling factor**
 
-- Default: `3`
+- Default: `2`
 - Range: `0.01` to `1000`
 - Vanilla equivalent: `1` (linear +1 per quality level)
 
@@ -54,7 +54,7 @@ Startup settings apply when starting a **new game**.
 Copy or symlink this folder into your Factorio mods directory:
 
 ```sh
-ln -s "$(pwd)" "$HOME/Library/Application Support/factorio/mods/jsl-quality-science-durability"
+ln -s "$(pwd)" "$HOME/Library/Application Support/factorio/mods/exponentially-better-science-pack-qualities"
 ```
 
 On Linux: `~/.factorio/mods/`  
@@ -63,7 +63,7 @@ On Windows: `%APPDATA%\Factorio\mods\`
 ## Packaging
 
 ```sh
-git archive --format zip --prefix jsl-quality-science-durability/ --worktree-attributes --output jsl-quality-science-durability_0.1.0.zip HEAD
+git archive --format zip --prefix exponentially-better-science-pack-qualities/ --worktree-attributes --output exponentially-better-science-pack-qualities_0.1.0.zip HEAD
 ```
 
 ## Release automation

@@ -3,4 +3,4 @@ Version: 0.1.0
 Date: 2026-06-11
   Features:
    - Add configurable exponential quality durability scaling via startup mod setting
-   - Default scaling factor of 3 (factor^level); factor of 1 restores vanilla linear scaling
+   - Default scaling factor of 2 (factor^level); factor of 1 restores vanilla linear scaling
