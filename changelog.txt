@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-06-11
+ Features:
+ - initial quality science durability mod
+ - publish mod to factorio portal
+ - rename mod and tune default scaling factor to 2
+---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-06-11
   Features:
