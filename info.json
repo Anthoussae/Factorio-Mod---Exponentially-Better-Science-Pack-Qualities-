@@ -1,0 +1,19 @@
+{
+  "name": "jsl-quality-science-durability",
+  "version": "0.1.0",
+  "title": "JSL Quality Science Durability",
+  "author": "James Stone Lunde",
+  "description": "Replaces vanilla linear quality durability scaling with configurable exponential scaling for science packs and other tools.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base",
+    "quality"
+  ],
+  "quality_required": true,
+  "rail_bridges_required": false,
+  "space_travel_required": false,
+  "spoiling_required": false,
+  "freezing_required": false,
+  "segmented_units_required": false,
+  "expansion_shaders_required": false
+}
